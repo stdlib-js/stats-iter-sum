@@ -65,7 +65,7 @@ s = \sum_{i=0}^{n-1} x_i
 ## Usage
 
 ```javascript
-import itersum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-sum@esm/index.mjs';
+import itersum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-sum@v0.2.3-esm/index.mjs';
 ```
 
 #### itersum( iterator )
@@ -113,7 +113,7 @@ var s = itersum( arr );
 <script type="module">
 
 import runif from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@esm/index.mjs';
-import itersum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-sum@esm/index.mjs';
+import itersum from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-sum@v0.2.3-esm/index.mjs';
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
